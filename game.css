@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+body{
+    background: linear-gradient(to right,gold,orangered);
+    height: 99vh;
+    display: flex;
+    align-items: center;
+}
+.main{
+    width: 30vw;
+    height: 94vh;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.144);
+
+}
+h1{
+    text-align: center;
+}
+.numbers-div{
+    height: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.numbers{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+.numbers:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+    box-shadow: 1px 1px 5px rgba(153, 114, 6, 0.438),0px 0px 15px rgba(168, 15, 15, 0.438),0px 0px 5px rgba(186, 199, 8, 0.438);
+    cursor: pointer;
+    color: black;
+}
+#result{
+    position: absolute;
+    top: 15px;
+    left: 400px;
+    width: max-content;
+    height: 94vh;
+    width: 42vw;
+    padding: 10px;
+    background-color: rgba(77, 76, 76, 0.534);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#result-head{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.replay{
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    /* color: white; */
+    margin: 20px;
+}
+.replay:hover{
+    background-color: orangered;
+}
+.replay:active{
+    background-color: forestgreen;
+}
