@@ -15,7 +15,13 @@ function handleClick(event){
     printAns.innerHTML = printAns.innerHTML+ans;
     }else{
         // console.log("wrong",X)
-        let wrongAttemt = "<h3 id='attemptsHeading'>Attempts Remaining: "+(3-attempts)+"</h3><button id='retry' onclick='handleRetry()' style='padding:20px'>RETRY</button>";
+        let hint;
+        if(num>X){
+            hint = "Hint! X is Smaller";
+        }else if(num<X){
+            hint = "Hint! X is Greater";
+        }
+        let wrongAttemt = "<h3 id='attemptsHeading'>Attempts Remaining: "+(3-attempts)+"<span id='hint'>"+hint+"</span></h3><button id='retry' onclick='handleRetry()' style='padding:20px'>RETRY</button>";
         var showAttempts = document.getElementById("result");
         showAttempts.style.display = "flex";
         if(attempts!=3){

@@ -75,6 +75,14 @@ h1 span {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#hint{
+  color: brown;
+  font-size: 12px;
+  margin: 4px;
 }
 #retry{
   padding: 20px 30px;
