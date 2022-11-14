@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 body{
     background: linear-gradient(to right,gold,orangered);
@@ -11,9 +11,7 @@ body{
     align-items: center;
 }
 .main{
-    width: 30vw;
     width: 400px;
-    height: 94vh;
     height: 600px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.144);
@@ -46,11 +44,10 @@ h1{
 }
 #result{
     position: absolute;
-    top: 15px;
-    left: 400px;
+    top: 10px;
     width: max-content;
-    height: 94vh;
-    width: 42vw;
+    height: 96vh;
+    width: 400px;
     padding: 10px;
     background-color: rgba(77, 76, 76, 0.534);
     display: none;
