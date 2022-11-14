@@ -44,9 +44,9 @@ h1{
 }
 #result{
     position: absolute;
-    top: 10px;
+    top: 20px;
     width: max-content;
-    height: 96vh;
+    height: 92vh;
     width: 400px;
     padding: 10px;
     background-color: rgba(77, 76, 76, 0.534);
