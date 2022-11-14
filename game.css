@@ -15,6 +15,8 @@ body {
   height: 600px;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.144);
+  box-shadow: 1px 1px 5px rgba(153, 114, 6, 0.438),
+  0px 0px 15px rgba(168, 15, 15, 0.438), 0px 0px 5px rgba(186, 199, 8, 0.438);
 }
 h1 {
   text-align: center;
